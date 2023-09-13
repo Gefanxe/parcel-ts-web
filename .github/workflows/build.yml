@@ -31,6 +31,8 @@ jobs:
         # 到 repo 的 setting
         # 選擇 Actions -> General
         # 在 Workflow permissions 中選擇 Read and write permissions
-        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: dist
+          token: $MY_SECRET
