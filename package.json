@@ -3,7 +3,7 @@
   "source": "src/index.html",
   "scripts": {
     "build": "parcel build",
-    "build:page": "parcel build --public-url ./",
+    "build:page": "parcel build --public-url /parcel-ts-web/",
     "clean": "rm -rf .parcel-cache dist",
     "start": "parcel --open",
     "type-check": "tsc --noEmit"
