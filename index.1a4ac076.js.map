@@ -1,0 +1,1 @@
+{"mappings":"ACAA,QAAQ,GAAA,CAAI,sB,4D","sources":["<anon>","src/app.ts"],"sourcesContent":["var $36d5a33d9da87b96$exports = {};\nconsole.log(\"Hello world! Parcel\");\n\n\n//# sourceMappingURL=index.1a4ac076.js.map\n","console.log('Hello world! Parcel');\n"],"names":["console","log"],"version":3,"file":"index.1a4ac076.js.map"}
