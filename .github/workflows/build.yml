@@ -33,4 +33,6 @@ jobs:
         # 在 Workflow permissions 中選擇 Read and write permissions
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: dist
+          clean: true
