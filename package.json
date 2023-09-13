@@ -1,0 +1,15 @@
+{
+  "name": "parcel-ts-web",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "clean": "rm -rf .parcel-cache dist",
+    "start": "parcel --open",
+    "type-check": "tsc --noEmit"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel": "2.9.3",
+    "typescript": "5.2.2"
+  }
+}
