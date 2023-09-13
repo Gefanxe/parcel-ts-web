@@ -26,6 +26,11 @@ jobs:
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
+
+        # 用這個套件佈 page 要改 Action 設定
+        # 到 repo 的 setting
+        # 選擇 Actions -> General
+        # 在 Workflow permissions 中選擇 Read and write permissions
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
